@@ -4,7 +4,7 @@
 
 This repository contains the implementation of an **English to Indonesian Machine Translation** project, developed as part of a college assignment for a Natural Language Processing (NLP) course. The project explores various translation models and evaluates their performance.
 
-## Models Used
+## Models
 
 The following models were utilized in this project:
 
@@ -12,13 +12,13 @@ The following models were utilized in this project:
 2. **Long Short-Term Memory (LSTM)**
 3. **Transformer**
 4. **T5-small**
-5. **Phi-3-mini-4k-instruct** (LLM from [Microsoft](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct))
+5. **[Microsoft Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)** (LLM from Microsoft)
 
 Each model was fine-tuned and tested on the given dataset to understand their effectiveness in the translation task.
 
 ## Dataset
 
-The dataset used for this project is Helsinki-NLP/opus-100, which is a multilingual translation dataset. The subset used in this project is specifically English-to-Indonesian (en-id).
+The dataset used for this project is [Helsinki-NLP/opus-100 Dataset](https://huggingface.co/datasets/Helsinki-NLP/opus-100), which is a multilingual translation dataset. The subset used in this project is specifically English-to-Indonesian (en-id).
 
 ### Data Breakdown:
 
