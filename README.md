@@ -45,9 +45,12 @@ The results of each model are summarized in terms of average BLEU scores calcula
 | ------------- | ------------- | ------------------- |
 | RNN           | 100,000       | TBD                 |
 | LSTM          | 100,000       | TBD                 |
+| BiLSTM        | 100,000       | TBD                 |
 | Transformer   | 100,000       | TBD                 |
-| T5            | 100,000       | TBD                 |
+| T5-small      | 100,000       | TBD                 |
 | Phi-3-mini-4k | 20,000        | TBD                 |
+
+*The listed models were selected based on hyperparameter configurations that yielded the highest average BLEU score.*
 
 *Average BLEU Score is calculated based on the 2000 test data samples.
 
