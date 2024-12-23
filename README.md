@@ -12,7 +12,7 @@ The following models were utilized in this project:
 2. **Long Short-Term Memory (LSTM)**
 3. **Transformer**
 4. **T5-small**
-5. **[Microsoft Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)** (LLM from Microsoft)
+5. **[Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct)** (LLM from Microsoft)
 
 Each model was fine-tuned and tested on the given dataset to understand their effectiveness in the translation task.
 
@@ -41,14 +41,14 @@ The repository is organized as follows:
 
 The results of each model are summarized in terms of average BLEU scores calculated on 2000 test samples.
 
-| Model         | Training Data | Average BLEU Score* |
-| ------------- | ------------- | ------------------- |
-| RNN           | 100,000       | TBD                 |
-| LSTM          | 100,000       | TBD                 |
-| BiLSTM        | 100,000       | TBD                 |
-| Transformer   | 100,000       | TBD                 |
-| T5-small      | 100,000       | TBD                 |
-| Phi-3-mini-4k | 20,000        | TBD                 |
+| Model                     | Training Data | Average BLEU Score* |
+| ------------------------- | ------------- | ------------------- |
+| RNN                       | 100,000       | 0.0272              |
+| LSTM                      | 100,000       | 0.0318              |
+| BiLSTM                    | 100,000       | 0.0334              |
+| Transformer               | 100,000       | 0.9668              |
+| Fine Tuned T5-small       | 100,000       | 0.1537              |
+| Fine Tuned Phi-3-mini-4k  | 20,000        | 0.1432              |
 
 *The listed models were selected based on hyperparameter configurations that yielded the highest average BLEU score.*
 
